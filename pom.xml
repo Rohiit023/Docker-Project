@@ -203,7 +203,7 @@
 
   <distributionManagement>
 		<repository>
-			<id>sDocker_Project_Release</id>
+			<id>Docker_Project_Release</id>
 			<name>Docker_Project_Release</name>
 			<url>http://43.205.210.3:8081/repository/Docker_Project_Release/</url>
 		</repository>
