@@ -7,7 +7,7 @@
 
   <parent>
     <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-parent</artifactId>
+    <artifactId>Docker_Project</artifactId>
     <version>2.7.0</version>
   </parent>
   <name>petclinic</name>
@@ -203,14 +203,14 @@
 
   <distributionManagement>
 		<repository>
-			<id>spring-release</id>
-			<name>spring-release</name>
-			<url>http://43.205.212.86:8081/repository/spring-release/</url>
+			<id>sDocker_Project_Release</id>
+			<name>Docker_Project_Release</name>
+			<url>http://43.205.210.3:8081/repository/Docker_Project_Release/</url>
 		</repository>
 		<snapshotRepository>
-			<id>spring-snapshot</id>
-			<name>spring-snapshot</name>
-			<url>http://43.205.212.86:8081/repository/spring-snapshot/</url>
+			<id>Docker_Project_Snapshot</id>
+			<name>Docker_Project_Snapshot</name>
+			<url>http://43.205.210.3:8081/repository/Docker_Project_Snapshot/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
